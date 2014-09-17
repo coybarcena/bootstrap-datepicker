@@ -660,6 +660,7 @@
 			if (!this.dates.length && oldDates.length)
 				this._trigger('clearDate');
 
+			this.focusDate = null;
 			this.fill();
 		},
 
